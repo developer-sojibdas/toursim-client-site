@@ -1,0 +1,20 @@
+.nav-link a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-link a:hover{
+  
+    color: hotpink;
+    
+}
+
+.footer{
+
+ margin-top: 100px;
+ padding-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+

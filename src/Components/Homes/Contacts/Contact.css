@@ -1,0 +1,48 @@
+.background{
+   
+    background-image: url(https://images.memphistours.com/xlarge/7c28a4f2db862a21a3dbee3b7cc965df.jpg);
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.contact-section{
+    background-color: black;
+    
+    
+}
+
+.from-txt{
+   color: wheat;
+   background-color: rgba(128, 128, 128, 0.165);
+   padding: 10px;
+   border-radius: 10px;
+}
+
